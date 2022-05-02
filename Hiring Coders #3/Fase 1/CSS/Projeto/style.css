@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-family: 'DM Sans', sans-serif;
+}
+
+ul {
+  list-style: none;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: url(./sheets/pexels-john-lee-6165871.jpg) no-repeat center center
+    fixed;
+  /*background-size: cover;*/
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+  border-bottom: 5px ridge #fff;
+  margin-bottom: 100px;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  padding: 10px;
+}
+
+header ul li a{
+  transition: 400ms;
+}
+
+header ul li a:hover{
+  color: #E8A19D;
+}
+
+.container {
+  text-align: center;
+}
+
+.container .name h1 {
+  font-size: 60px;
+}
+
+.container .name h5 {
+  font-size: 25px;
+}
+
+#about p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.form {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.form input {
+  width: 50%;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.form button {
+  width: 15%;
+  padding: 5px 10px;
+  background: linear-gradient(to right, #000 50%, #E8A19D 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  cursor: pointer;
+  font-weight: 700;
+  border: none;
+  transition: all 400ms ease-out;
+  border-radius: 0px 5px 5px 0px;
+  margin-top: 20px;
+  margin-left: -5px;
+}
+
+.form button:hover{
+  background-position: left bottom;
+}
+
+#arrow svg{
+  height: 50px;
+}
